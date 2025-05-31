@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @ritik-sa0201
 - 👀 I’m interested in FullStacks and DSA
-- 🌱 I’m currently learning Frontend
+- 🌱 I’m currently learning n8n automation
 - 📫 How to reach me : insta:__ritik__saini
 - ⚡ Fun fact: ...i don't sleep
 
