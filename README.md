@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @ritik-sa0201
-- 👀 I’m interested in FullStacks and DSA
-- 🌱 I’m currently learning n8n automation
-- 📫 How to reach me : insta:__ritik__saini
+- 👀 I’m interested in new tech and DSA
+- 🌱 I’m currently learning GENAI
+- 📫 How to reach me : insta:__ritik__saini mail:ritiksaini022006@gmail.com
 
 
 <!---
