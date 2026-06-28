@@ -14,7 +14,7 @@
 
 ---
 
-B.Tech Computer Engineering @ **IIIT Bhubaneswar** (2023–2027) · Co-Founder @ **Innoveda Solutions** · Selected as **Harvard PAIR Delegate** from 50,000+ applicants.
+B.Tech Computer Engineering @ **IIIT Bhubaneswar** (2023–2027) ·
 
 I build production-grade multi-agent AI systems and full-stack web platforms — from hybrid RAG pipelines with cross-encoder reranking to real-time booking platforms. Currently targeting SDE internships and full-time roles at product-based companies.
 
@@ -112,20 +112,6 @@ I build production-grade multi-agent AI systems and full-stack web platforms —
 - Evaluation pipelines via **RAGAS** and **DeepEval** to measure retrieval quality and detect hallucinations
 
 `Python` `LangGraph` `Groq` `ChromaDB` `LangSmith` `RAGAS` `DeepEval` `Docker` `AWS`
-
----
-
-## 💼 Experience
-
-**Co-Founder — Innoveda Solutions** &nbsp;`Dec 2025 – Present`
-
-Scaled a web development agency to 5+ clients in 6 months. Led architecture and delivery across a full-stack real estate platform (100+ users), a hotel booking system with dynamic pricing (+35% engagement, +20% conversion), and 2+ SEO-optimized portfolio sites.
-
-**SDE Intern — TechPranee, Hyderabad** &nbsp;`Sep – Nov 2025`
-
-GenAI work on the ERPZ warehouse management system. Built an Ollama-powered code-generation library producing 10+ production-ready React/Node.js templates (–20% boilerplate across 4-person team). Cut design-to-code turnaround from 2 days to 4 hours via AI-assisted prototyping.
-
----
 
 ## 🏆 Achievements
 
