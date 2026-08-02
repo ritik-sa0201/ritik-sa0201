@@ -16,7 +16,7 @@
 
 ---
 
-B.Tech Computer Engineering @ **IIIT Bhubaneswar** (2023–2027) ·
+B.Tech Computer Engineering @ **IIIT Bhubaneswar** (2023–2027)
 
 I build production-grade multi-agent AI systems and full-stack web platforms — from hybrid RAG pipelines with reranking to real-time booking platforms. Currently targeting SDE internships and full-time roles at product-based companies.
 
@@ -24,35 +24,22 @@ I build production-grade multi-agent AI systems and full-stack web platforms —
 
 ## 🛠 Tech Stack
 
-### Languages
-
+**Languages**
 <p>
-  <img src="https://skillicons.dev/icons?i=cpp" height="40" alt="C++" title="C++"/>
-  <img src="https://skillicons.dev/icons?i=python" height="40" alt="Python" title="Python"/>
-  <img src="https://skillicons.dev/icons?i=js" height="40" alt="JavaScript" title="JavaScript"/>
-  <img src="https://skillicons.dev/icons?i=mysql" height="40" alt="SQL" title="SQL"/>
+  <img src="https://skillicons.dev/icons?i=cpp,python,js,mysql" height="40"/>
 </p>
 
-### Backend & Databases
-
+**Backend & Databases**
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="Node.js" title="Node.js"/>
-  <img src="https://skillicons.dev/icons?i=express" height="40" alt="Express.js" title="Express.js"/>
-  <img src="https://skillicons.dev/icons?i=fastapi" height="40" alt="FastAPI" title="FastAPI"/>
-  <img src="https://skillicons.dev/icons?i=mongodb" height="40" alt="MongoDB" title="MongoDB"/>
-  <img src="https://skillicons.dev/icons?i=mysql" height="40" alt="MySQL" title="MySQL"/>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,mongodb,mysql" height="40"/>
 </p>
 
-### Frontend
-
+**Frontend**
 <p>
-  <img src="https://skillicons.dev/icons?i=react" height="40" alt="React" title="React"/>
-  <img src="https://skillicons.dev/icons?i=vite" height="40" alt="Vite" title="Vite"/>
-  <img src="https://skillicons.dev/icons?i=tailwind" height="40" alt="Tailwind CSS" title="Tailwind CSS"/>
+  <img src="https://skillicons.dev/icons?i=react,vite,tailwind" height="40"/>
 </p>
 
-### GenAI & ML
-
+**GenAI & ML**
 <p>
   <img src="https://go-skill-icons.vercel.app/api/icons?i=langchain" height="40" alt="LangChain" title="LangChain"/>
   <img src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/langgraph.png" height="40" alt="LangGraph" title="LangGraph"/>
@@ -64,24 +51,16 @@ I build production-grade multi-agent AI systems and full-stack web platforms —
   <img src="https://img.shields.io/badge/RAGAS-5C4EE5?style=flat-square&logoColor=white" height="28" alt="RAGAS" title="RAGAS"/>
 </p>
 
-### Cloud, DevOps & Tools
-
+**Cloud, DevOps & Tools**
 <p>
-  <img src="https://skillicons.dev/icons?i=docker" height="40" alt="Docker" title="Docker"/>
-  <img src="https://skillicons.dev/icons?i=aws" height="40" alt="AWS" title="AWS EC2 & S3"/>
-  <img src="https://skillicons.dev/icons?i=githubactions" height="40" alt="GitHub Actions" title="GitHub Actions CI/CD"/>
-  <img src="https://skillicons.dev/icons?i=git" height="40" alt="Git" title="Git"/>
-  <img src="https://skillicons.dev/icons?i=github" height="40" alt="GitHub" title="GitHub"/>
-  <img src="https://skillicons.dev/icons?i=vercel" height="40" alt="Vercel" title="Vercel"/>
-  <img src="https://skillicons.dev/icons?i=postman" height="40" alt="Postman" title="Postman"/>
-  <img src="https://skillicons.dev/icons?i=linux" height="40" alt="Linux" title="Linux"/>
+  <img src="https://skillicons.dev/icons?i=docker,aws,githubactions,git,github,vercel,postman,linux" height="40"/>
 </p>
 
 ---
 
 ## 🚀 Featured Projects
 
-### [CareerPilot](https://github.com/ritik-sa0201) &nbsp;·&nbsp; Multi-Agent Placement Outreach Automation
+### [CareerPilot](https://github.com/ritik-sa0201) · Multi-Agent Placement Outreach Automation
 
 > Automates end-to-end recruiter outreach — live job-portal parsing, bulk CSV ingestion, company research, and personalized email delivery with human-in-the-loop review.
 
@@ -93,7 +72,7 @@ I build production-grade multi-agent AI systems and full-stack web platforms —
 
 ---
 
-### [PlanMyTrips](https://github.com/ritik-sa0201) &nbsp;·&nbsp; Personalized Travel Itinerary Generator
+### [PlanMyTrips](https://github.com/ritik-sa0201) · Personalized Travel Itinerary Generator
 
 > Generates multi-day itineraries based on user preferences, budget, and real-time travel data using a multi-agent RAG pipeline.
 
@@ -116,6 +95,18 @@ I build production-grade multi-agent AI systems and full-stack web platforms —
 | 🥇 | **Codolio Rank #288** across the competitive programming community |
 | 🏆 | **Anveshan Hackathon 2024 — Finalist** — AI billing system with computer vision + YOLO (88% detection accuracy, 60% checkout time reduction) |
 | 👥 | **Emerging CEO, Coding Ninjas 10x Club** — Led outreach for an 80+ member technical community |
+
+---
+
+## 🐍 Contribution Snake
+
+A snake that eats through my contribution graph, regenerated daily by GitHub Actions.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ritik-sa0201/ritik-sa0201/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake animation" />
+</div>
+
+> Setup note: this image only renders once the workflow in `.github/workflows/snake.yml` (included alongside this README) has run at least once on your profile repo. See the comment at the top of that file for the two config lines you need to edit.
 
 ---
 
