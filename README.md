@@ -98,12 +98,18 @@ I build production-grade multi-agent AI systems and full-stack web platforms —
 
 ---
 
-## 🐍 Contribution Snake
+## 👻 Contribution Pac-Man
 
-A snake that eats through my contribution graph, regenerated daily by GitHub Actions.
+Pac-Man chomping through my contribution graph while ghosts give chase — regenerated daily by GitHub Actions.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ritik-sa0201/ritik-sa0201/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake animation" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ritik-sa0201/ritik-sa0201/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ritik-sa0201/ritik-sa0201/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/ritik-sa0201/ritik-sa0201/output/pacman-contribution-graph.svg">
+</picture>
+
 </div>
 
 
