@@ -106,7 +106,6 @@ A snake that eats through my contribution graph, regenerated daily by GitHub Act
   <img src="https://raw.githubusercontent.com/ritik-sa0201/ritik-sa0201/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake animation" />
 </div>
 
-> Setup note: this image only renders once the workflow in `.github/workflows/snake.yml` (included alongside this README) has run at least once on your profile repo. See the comment at the top of that file for the two config lines you need to edit.
 
 ---
 
