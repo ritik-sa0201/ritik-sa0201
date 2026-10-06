@@ -2,133 +2,110 @@
 
 # Ritik Saini
 
-**SDE · GenAI Builder · Competitive Programmer**
+**Backend & GenAI Engineer · FastAPI · Node.js · LangGraph · AWS**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ritik-sa0201)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000?logo=vercel&logoColor=white)](https://ritik-saini.vercel.app)
-[![LeetCode](https://img.shields.io/badge/LeetCode_Knight-FFA116?logo=leetcode&logoColor=white)](https://leetcode.com/u/ritik-sa0201/)
-[![Codeforces](https://img.shields.io/badge/Codeforces_Newbie-1F8ACB?logo=codeforces&logoColor=white)](https://codeforces.com/profile/ritik-sa0201)
-[![Codolio](https://img.shields.io/badge/Codolio_%23288-6C3EF4?logoColor=white)](https://codolio.com/profile/ritik-sa0201)
-[![Email](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](mailto:ritiksainicoding@gmail.com)
-[![Phone](https://img.shields.io/badge/Call-25D366?logo=whatsapp&logoColor=white)](tel:+918929892878)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ritik-sa0201/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white)](https://ritik-saini.vercel.app)
+[![LeetCode](https://img.shields.io/badge/LeetCode_Knight-1964-FFA116?logo=leetcode&logoColor=white)](https://leetcode.com/u/Tensa_Zangetsu_01/)
+[![Codeforces](https://img.shields.io/badge/Codeforces_Specialist-1588-1F8ACB?logo=codeforces&logoColor=white)](https://codeforces.com/profile/Sh0ckwave)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ritik.sainicoding@gmail.com)
 
 </div>
 
 ---
 
-B.Tech Computer Engineering @ **IIIT Bhubaneswar** (2023–2027)
+B.Tech Computer Engineering @ **IIIT Bhubaneswar** (2023–2027) · CGPA 8.38
 
-I build production-grade multi-agent AI systems and full-stack web platforms — from hybrid RAG pipelines with reranking to real-time booking platforms. Currently targeting SDE internships and full-time roles at product-based companies.
+I build backend systems and LLM-powered products that ship: a production real-estate platform with role-based access control, and an AI itinerary planner running a parallel LangGraph pipeline on AWS. I care about evaluation, latency, and observability, not just getting a demo to work.
 
----
-
-## 🛠 Tech Stack
-
-**Languages**
-<p>
-  <img src="https://skillicons.dev/icons?i=cpp,python,js,mysql" height="40"/>
-</p>
-
-**Backend & Databases**
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,mongodb,mysql" height="40"/>
-</p>
-
-**Frontend**
-<p>
-  <img src="https://skillicons.dev/icons?i=react,vite,tailwind" height="40"/>
-</p>
-
-**GenAI & ML**
-<p>
-  <img src="https://go-skill-icons.vercel.app/api/icons?i=langchain" height="40" alt="LangChain" title="LangChain"/>
-  <img src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/langgraph.png" height="40" alt="LangGraph" title="LangGraph"/>
-  <img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square&logo=langchain&logoColor=white" height="28" alt="LangSmith" title="LangSmith"/>
-  <img src="https://img.shields.io/badge/RAG-4B8BBE?style=flat-square&logoColor=white" height="28" alt="RAG" title="Retrieval-Augmented Generation"/>
-  <img src="https://img.shields.io/badge/ChromaDB-FF6F61?style=flat-square&logoColor=white" height="28" alt="ChromaDB" title="ChromaDB"/>
-  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" height="28" alt="Ollama" title="Ollama"/>
-  <img src="https://img.shields.io/badge/Groq-FF6600?style=flat-square&logoColor=white" height="28" alt="Groq" title="Groq"/>
-  <img src="https://img.shields.io/badge/RAGAS-5C4EE5?style=flat-square&logoColor=white" height="28" alt="RAGAS" title="RAGAS"/>
-</p>
-
-**Cloud, DevOps & Tools**
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,aws,githubactions,git,github,vercel,postman,linux" height="40"/>
-</p>
+**Open to:** SDE internships from Jan 2027 and full-time backend / GenAI roles from mid-2027 · Bangalore · Hyderabad · Pune · NCR · Mumbai · Remote India
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### [CareerPilot](https://github.com/ritik-sa0201) · Multi-Agent Placement Outreach Automation
+### [PlanMyTrips](https://github.com/ritik-sa0201/PlanMyTrips) · AI Itinerary Generator &nbsp;|&nbsp; [Live Demo](LIVE_DEMO_URL)
 
-> Automates end-to-end recruiter outreach — live job-portal parsing, bulk CSV ingestion, company research, and personalized email delivery with human-in-the-loop review.
+> A full-stack FastAPI + React app that turns preferences and budget into a multi-day itinerary using a multi-agent RAG pipeline.
 
-- Architected a **6-agent LangGraph pipeline** supporting live job-portal parsing and bulk CSV ingestion of **100+ recruiter records** per batch, cutting manual outreach effort by **60%**
-- Integrated **Llama 3.2** and **Serper API** for real-time company/role research and prompt-engineered, personalized outreach generation
-- Instrumented the full pipeline with **LangSmith** for per-agent latency/token tracing across all 6 nodes, reducing prompt-debugging time by **40%**
+- Orchestrated **parallel RAG, weather, and web-search agents** with LangGraph into planner → optimizer → generator stages, cutting end-to-end latency by **35%** versus sequential execution
+- Built a **hybrid retrieval pipeline**: BM25 + dense vectors over ChromaDB, fused with reciprocal rank fusion and re-ordered with a Cohere reranker, improving relevance by **30%**
+- Traced 5+ pipeline stages with **LangSmith**
+- Containerized with **Docker** and deployed to **AWS (EC2 + S3)** through a **GitHub Actions** CI/CD pipeline
 
-`FastAPI` `LangGraph` `LangSmith` `Ollama (Llama 3.2)` `Serper API` `Google SMTP`
-
----
-
-### [PlanMyTrips](https://github.com/ritik-sa0201) · Personalized Travel Itinerary Generator
-
-> Generates multi-day itineraries based on user preferences, budget, and real-time travel data using a multi-agent RAG pipeline.
-
-- Built a **hybrid retrieval pipeline** combining BM25 sparse search with dense vector retrieval over ChromaDB, fused via reciprocal rank fusion and reordered with a **Cohere reranker**, improving top-k relevance by **30%**
-- Orchestrated **parallel RAG, weather, and web-search agents** into sequential planner/optimizer/generator stages with LangGraph, cutting itinerary generation latency by **35%**
-- Full observability via **LangSmith** across 5+ agent stages, reducing prompt-debugging time by **40%**
-- Containerized with **Docker**, deployed to **AWS (EC2 + S3)** via **GitHub Actions** CI/CD
-
-`Python` `LangChain` `LangGraph` `LangSmith` `Ollama` `Groq` `ChromaDB` `Docker` `AWS`
+`Python` `FastAPI` `React` `LangGraph` `ChromaDB` `Groq` `Docker` `AWS` `GitHub Actions`
 
 ---
 
-## 🏆 Achievements
+### [Dream Town Realty](https://github.com/ritik-sa0201/DreamTownRealty) · Production Real-Estate Platform
 
-| | |
+> The backend for a live real-estate platform with 50+ active users, built for a client at Innoveda Solutions.
+
+- Designed a **four-tier hierarchical RBAC** system (Visitor, User, Admin, Super Admin) on Node.js, Express and MongoDB
+- Built REST APIs across **7+ modules** (properties, blog CMS, careers, queries, contact, dealers, users) with JWT + bcrypt auth, centralized error-handling middleware, and role-gated admin routes
+- Implemented a stateful query-resolution workflow (Submitted → Under Review → Resolved) powering the admin inquiry dashboard
+
+`Node.js` `Express` `MongoDB` `Mongoose` `JWT` `RBAC` `React`
+
+---
+
+### [CareerPilot](https://github.com/ritik-sa0201/CareerPilot) · Multi-Agent Outreach Drafting Tool
+
+> Parses job pages or CSVs, researches companies, and drafts personalized outreach. A human reviews every message before anything is sent.
+
+- Designed a **6-node LangGraph state machine** with parallel branching, cutting pipeline latency by **35%** and manual outreach effort by **60%**
+- Built a FastAPI + Pydantic API processing **50+ recruiter records per batch** via live HTML parsing and bulk CSV ingestion, with automated email validation
+- Added an LLM-based scoring step that ranks records by data quality, plus a **mandatory human-in-the-loop review** before dispatch
+
+`Python` `FastAPI` `Pydantic` `LangGraph` `Llama 3.2` `Groq` `Serper API`
+
+---
+
+## Experience
+
+| Role | Where | When |
+|---|---|---|
+| Co-Founder & Full-Stack Developer | Innoveda Solutions | Dec 2025 – Present |
+| SDE Intern, GenAI & LLM Automation | TechPranee | Sep 2025 – Nov 2025 |
+
+- Cut design-to-code turnaround by **75%** (2 days → 4 hours) on the ERPZ warehouse system with an LLM-driven UI-to-code pipeline, shipping 15+ reusable components
+- Benchmarked LLMs on latency, hallucination rate and cost with **RAGAS** faithfulness and answer-relevancy scores to pick the model for a production RAG support chatbot
+
+---
+
+## Tech Stack
+
+**Languages** &nbsp; ![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-4479A1?logo=mysql&logoColor=white)
+
+**Backend & Data** &nbsp; ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white)
+
+**Frontend** &nbsp; ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white)
+
+**GenAI** &nbsp; ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?logoColor=white) ![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F61?logoColor=white) ![RAGAS](https://img.shields.io/badge/RAGAS-5C4EE5?logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?logo=ollama&logoColor=white) ![Groq](https://img.shields.io/badge/Groq-FF6600?logoColor=white)
+
+**Cloud & DevOps** &nbsp; ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+
+---
+
+## Problem Solving
+
+| Platform | Stats |
 |---|---|
-| 🎓 | **Harvard PAIR Delegate** — Selected from 50,000+ global applicants |
-| ⚡ | **LeetCode Knight** — Rating 1968 · Top 2.17% · 1700+ problems · 150K+ solution views |
-| 💻 | **Codeforces Newbie** — Rating 1178 · 150+ problems |
-| 🥇 | **Codolio Rank #288** across the competitive programming community |
-| 🏆 | **Anveshan Hackathon 2024 — Finalist** — AI billing system with computer vision + YOLO (88% detection accuracy, 60% checkout time reduction) |
-| 👥 | **Emerging CEO, Coding Ninjas 10x Club** — Led outreach for an 80+ member technical community |
+| [LeetCode](https://leetcode.com/u/Tensa_Zangetsu_01/) | **Knight** · contest rating **1964** · **1807 solved** (543 Easy / 1093 Medium / 171 Hard) · 59 contests · 220-day max streak |
+| [Codeforces](https://codeforces.com/profile/Sh0ckwave) | **Specialist** · rating **1588** |
 
 ---
 
-## 👻 Contribution Pac-Man
+## Highlights
 
-Pac-Man chomping through my contribution graph while ghosts give chase — regenerated daily by GitHub Actions.
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ritik-sa0201/ritik-sa0201/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ritik-sa0201/ritik-sa0201/output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/ritik-sa0201/ritik-sa0201/output/pacman-contribution-graph.svg">
-</picture>
-
-</div>
-
+- **Amazon ML Challenge 2026:** Rank 594 (business entity resolution)
+- **Anveshan Hackathon 2024:** Finalist (YOLO-based automated billing, 88% detection accuracy, 60% faster checkout)
+- **Harvard PAIR VCONF:** Delegate
 
 ---
-
-## 📊 GitHub Stats
 
 <div align="center">
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ritik-sa0201&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&show_icons=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ritik-sa0201&theme=github_dark&hide_border=true&layout=compact&langs_count=8)
-
-</div>
-
----
-
-<div align="center">
-
-*B.Tech Computer Engineering · IIIT Bhubaneswar · 2023–2027*
 
 </div>
